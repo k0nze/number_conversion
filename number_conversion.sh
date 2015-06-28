@@ -75,6 +75,7 @@ elif [ "${PREFIX}" == "0b" ]; then
 # decimal input
 else
     # conversion
+    DEC=${NUMBER}
     HEX=$(echo "obase=16; ${NUMBER}" | bc)
     OCT=$(echo "obase=8; ${NUMBER}" |bc)
     BIN=$(echo "obase=2; ${NUMBER}" |bc)
