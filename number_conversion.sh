@@ -14,7 +14,7 @@ function syntax_msg {
     echo "NUMBER:"
     echo "    a number without prefix will be interpreted as decimal number."
     echo "    the following prefixes are used for interpreting the number in"
-    echo "    in different systems:"
+    echo "    different systems:"
     echo "    0x = hexadecimal"
     echo "    0o = octal"
     echo "    0b = binary"
